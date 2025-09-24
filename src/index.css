@@ -1,0 +1,53 @@
+/* Estilos generales */
+.app-container {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .app-container {
+    display: block;
+    text-align: left;
+  }
+
+  .app-container h1 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .app-container p {
+    font-size: 16px;
+    line-height: 1.2;
+    padding-left: 2%;
+  }
+
+  .app-container p strong {
+    font-weight: bold;
+  }
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+  .app-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1800px;
+    padding: 1px 120px;
+  }
+
+  .app-container h1 {
+    flex: 1;
+    font-size: 40px;
+  }
+
+  .app-container p {
+    font-size: 16px;
+    max-width: 600px;
+    padding: 1.5%;
+  }
+}
+
+
+
